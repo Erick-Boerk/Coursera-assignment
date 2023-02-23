@@ -1,0 +1,85 @@
+.head_title
+{
+    background-color: transparent;
+    float: none;
+}
+.container{
+    background-color: aqua;
+    float: none;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.heading{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    background-image:url('Images/Erick.jpg');
+    background-position:center;
+}
+.types {
+    list-style: none;
+    text-align: center;
+}
+.types > li a {
+    width: 150px;
+    display: block;
+    list-style: none;
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f3f4f7;
+    margin: 5px;
+}
+.types > li a:hover{
+    list-style: none;
+    text-align: center;
+    color: #f3f4f7;
+    background-color: #23ff;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 5px;
+}
+.head_menu{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    background-color: transparent;
+}
+#logo{
+    width: 150px;
+    height: 140px;
+    border-radius: 45px;
+    border: 1px solid #23ff;
+    background-image: url('Images/EllisIcon.PNG');
+    background-size: contain;
+    box-shadow: 5px 2px 3px goldenrod;
+    background-color: aliceblue;
+    float: left;
+    margin-right: 25px;
+    
+}
+.paragraph{
+    background-color: aquamarine;
+    height: 1000px;
+}
+.footer li a{
+    list-style: none;
+    color: #23ff;
+    text-decoration: none;
+}
+@media(min-width: 1000px){
+    .head_menu{
+        width: fit-content;
+        height: fit-content;
+        border: 1px solid rgb(20, 18, 18);
+        margin-left: auto;
+        background-color: transparent;
+    }
+}
