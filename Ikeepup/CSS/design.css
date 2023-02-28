@@ -1,0 +1,132 @@
+.heading{
+	background-color: aqua;
+    text-transform: uppercase;
+    text-align: center;
+	}
+    .Menu{
+        text-align: right;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .Menu > a{
+        margin-right: 20px;
+        background-color: #00f9;
+        color: #fff;
+        border-radius: 15%;
+        box-shadow: 1px 3px 4px #000;
+        margin-bottom: 10px;
+    }
+	#top, a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+		color: blue;
+	}
+	#top:hover{
+		text-transform: uppercase;
+		text-decoration: underline;
+		font-size: 15px;
+		font-weight: bold;
+		color: #4ae245
+	}
+    nav > div > p{
+        font-family: Cambria, Cochin, Georgia;
+        font-size: 15px;
+        padding: 2px;
+        font-weight: 300px;
+    }
+    .container{
+        padding: 10px;
+        background-image: linear-gradient(#7ff, #5f9f, #fff9f5);
+    }
+    .content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+    .para3{
+        border: 1px solid #000;
+    }
+    .para2{
+        border: 1px solid #000;
+    }
+    .para1{
+        border: 1px solid #000;
+    }
+    div > span{
+        background-color: #ff0;
+        width: fit-content;
+        border: 1px solid #000;
+        float: right;
+        margin-top: -1px;
+        margin-right: -1px;
+        font-weight: bolder;
+    }
+    #dic{
+        color: #fff9f5;
+        text-shadow: 1px 2px 3px #000;
+        background-color: #00f97f;
+    }
+    #novel{
+        color: #fff9f5;
+        text-shadow: 1px 2px 3px #000;
+        background-color: #00f9;
+    }
+    #book{
+        color: #fff9f5;
+        text-shadow: 1px 2px 3px #000;
+        background-color: #f9ae7f;
+    }
+    @media (min-width: 992px) {
+        
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        .content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .para3{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border: 1px solid #000;
+        }
+        .Menu{
+            text-align: right;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .Menu > a{
+            margin-right: 10px;
+            background-color: #00f9;
+            color: #fff;
+            border-radius: 15%;
+            box-shadow: 1px 3px 4px #000;
+        }
+        
+    }
+    @media (min-width: 120px) and (max-width: 767px) {
+        .content{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+        }
+        .heading{
+            background-color: #7ff;
+            text-transform: uppercase;
+            text-align: left;
+            }
+        .Menu{
+            text-align: right;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+        .Menu > a{
+            margin-right: 5px;
+            background-color: #00f9;
+            color: #fff;
+            border-radius: 15%;
+            box-shadow: 1px 3px 4px #000;
+        }
+    }
